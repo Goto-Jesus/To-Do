@@ -1,0 +1,160 @@
+h1{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+body{
+    background: rgb(16,90,191);
+    background: linear-gradient(118deg, rgba(16,90,191,1) 0%, rgba(95,225,255,1) 100%);
+   background-attachment: fixed;
+    height: 100vh;
+    color: #3A7BD5;
+}
+
+.myContainer{
+    width: 50%;
+    min-height: 300px;
+    margin: 25px auto;
+    background-color: #CAEFF9;
+    border-radius: 10px;
+}
+
+.todo{
+    padding: 30px;
+}
+
+.task_pole{
+    background-color: #3A7BD5;
+    border-radius: 5px;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 1fr 70px;
+}
+
+input{
+    font-size: 20px;
+    padding: 20px 10px 20px 10px;
+    border: 3px solid #3A7BD5;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #3A7BD5;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 12px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .btn:hover {
+    background-color: #6394d8;
+  }
+
+  .add{
+      width: 80%;
+      height: 80%;
+  }
+
+  .center{
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+  }
+
+  ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+  li{
+      margin-top: 30px;
+      border-radius: 5px;
+      padding: 5px 20px 5px 20px;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+  }
+
+  .checkbox{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.todo ul li .completed{
+    text-decoration: line-through;
+    color: black;
+}
+
+.title{
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+
+/*
+
+
+
+
+li{
+    padding: 10px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+li{
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+
+.checkbox, .delete-task , .add{
+    width: 25px;
+    height: 25px;
+}
+
+.flex_lol{
+    display: flex;
+    align-items: center; 
+}
+
+.new-task{
+    border:none;
+    border-radius: 5px;
+    padding: 25px;
+    height: 30px;
+}
+
+.add{
+    margin: 0;
+    border:none;
+    width: 30px;
+    height: 30px;
+}
+
+.add:hover{
+    border: 3px solid tomato;
+}
+
+*/

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+    <!-- BUTTON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="title center">
+        <h1>To > Do</h1>
+    </div>
+    <div class="myContainer">
+        <div class="todo">
+            <div class="task_pole">
+                <input type="text" class="new-task" placeholder="Add a task here...">
+                <div class="center"><button class="add btn"><i class="fa fa-plus"></i></button></div>
+            </div>
+            <ul>
+                <li>
+                    <div class="center">
+                        <input type="checkbox" class="checkbox">
+                        <span>Task1</span>
+                    </div>
+                    <div class="center">
+                        <button class="delete-task btn"><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="center">
+                        <input type="checkbox" class="checkbox">
+                        <span>Task2</span>
+                    </div>
+                    <div class="center">
+                        <button class="delete-task btn"><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
